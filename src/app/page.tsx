@@ -137,7 +137,7 @@ function Row({ label, children }: { label: string; children: React.ReactNode }) 
 
 // Plain-text description. DATA.summary is markdown and leaks syntax into meta tags
 const HOME_DESCRIPTION =
-  "Full Stack Developer and AI Enthusiast focused on creating modern web applications, automation systems, and innovative digital products using React, Next.js, TypeScript, and Node.js.";
+  "Freelance full stack developer from Bhubaneswar, India. I build with Next.js, TypeScript and React: Outbuilt, Dateup, PayBrackets and more. Open to DevRel work.";
 
 export const metadata: Metadata = {
   title: DATA.name,
@@ -162,7 +162,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: DATA.name,
     description: HOME_DESCRIPTION,
-    creator: '@sureshksmy',
+    creator: '@prasenx',
     images: [
       {
         url: `${DATA.url}/og/home-2026-09.png`,
@@ -232,7 +232,7 @@ export default async function Page() {
                 <div className="profile-wrapper">
                   <FlipAvatar
                     src={DATA.avatarUrl}
-                    hoverSrc="/sureshdk.webp"
+                    hoverSrc="/hi2.webp"
                     alt={DATA.name}
                     fallback={DATA.initials}
                   />
@@ -675,12 +675,12 @@ export default async function Page() {
                     RSS Feed
                   </Link>
                   <a
-                    href="https://suresh.app/mycv.pdf"
+                    href="https://github.com/StarKnightt/prasendev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-muted-foreground hover:text-foreground transition-colors w-fit"
                   >
-                    Resume
+                    Source Code
                   </a>
                 </div>
               </div>
