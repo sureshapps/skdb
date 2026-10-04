@@ -37,8 +37,7 @@ export const DATA = {
   description:
     "",
   summary:
-    "**[[highlight:Full Stack Developer]]** passionate about building modern web applications, mobile experiences, and intelligent digital solutions. Experienced in developing scalable platforms with React, Next.js, Django, Python, and AI-powered technologies. Focused on creating seamless user experiences through clean design, efficient architecture, and innovative problem-solving. Always excited to collaborate on impactful projects and bring creative ideas to life.",
-
+       "**[[highlight:Full Stack Developer]]** crafting scalable web, mobile, and **[[underline:AI-Powered]]** experiences. Turning ideas into impactful digital products through clean code, smart design, innovative digital solutions that make an impact.",
   avatarUrl: "/sureshlg.webp",
   // refresh periodically
   stats: [
