@@ -29,17 +29,17 @@ export type Project = {
 };
 
 export const DATA = {
-  name: "Prasenjit Nayak",
-  initials: "PN",
-  url: "https://www.prasen.dev",
-  location: "Odisha, India",
+  name: "Suresh Kaleyannan",
+  initials: "KS",
+  url: "https://www.suresh.app",
+  location: "Kuala Lumpur, Malaysia",
   locationLink: "https://www.google.com/maps/place/odisha",
   description:
     "",
   summary:
-    "**[[highlight:Full Stack Developer]]** who builds in public and runs a 500+ member developer community, mostly shipping with Next.js, TypeScript and React. Currently freelancing and open to [**[[underline:DevRel work]]**](mailto:hi@prasen.dev). Always up for collaborating on exciting projects.",
+    "**[[highlight:Full Stack Developer]]** passionate about building modern web applications, mobile experiences, and intelligent digital solutions. Experienced in developing scalable platforms with React, Next.js, Django, Python, and AI-powered technologies. Focused on creating seamless user experiences through clean design, efficient architecture, and innovative problem-solving. Always excited to collaborate on impactful projects and bring creative ideas to life.",
 
-  avatarUrl: "/prasen.webp",
+  avatarUrl: "/sureshlg.webp",
   // refresh periodically
   stats: [
     { value: "23", label: "paid placements on Outbuilt", href: "https://outbuilt.lol" },
