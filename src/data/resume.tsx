@@ -167,13 +167,7 @@ export const DATA = {
 
         navbar: true,
       },
-      Facebook: {
-        name: "Facebook",
-        url: "https://www.fb.me/mesureshks/",
-        icon: Icons.facebook,
 
-        navbar: true,
-      },
       X: {
         name: "X",
         url: "https://x.com/sureshksmy",
@@ -185,7 +179,7 @@ export const DATA = {
         name: "Youtube",
         url: "https://youtube.com/@prasendev",
         icon: Icons.youtube,
-        navbar: false,
+        navbar: true,
       },
       Medium: {
         name: "Medium",
@@ -199,17 +193,12 @@ export const DATA = {
         icon: Icons.instagram,
         navbar: true,
       },
-      Behance: {
-        name: "Behance",
-        url: "https://behance.net/sureshksmy",
-        icon: Icons.steam,
-        navbar: true,
-      },
+      
       CodePen: {
         name: "CodePen",
         url: "https://codepen.io/StarKnightt",
         icon: Icons.codepen,
-        navbar: false,
+        navbar: true,
       },
       Discord: {
         name: "Discord",
