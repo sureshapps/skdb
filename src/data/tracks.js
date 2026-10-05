@@ -4,12 +4,12 @@
 export const tracks = [
   {
     title: "Jananayagan",
-    src: "/music/OruPereVaralaaru.mp3",
+    src: "https://raw.githubusercontent.com/sureshapps/skdb/refs/heads/main/public/music/OruPereVaralaaru.mp3",
     cover: "/music/IMG_7272.jpeg",
   },
   {
      title: "Jananayagan",
-    src: "/music/Ravana.mp3",
+    src: "https://raw.githubusercontent.com/sureshapps/skdb/refs/heads/main/public/music/Raavana.mp3",
     cover: "/music/IMG_7273.webp",
    },
 ];
