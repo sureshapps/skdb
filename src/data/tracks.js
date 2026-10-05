@@ -3,15 +3,15 @@
 // cover (optional image url).
 export const tracks = [
   {
-    title: "Demo - Preview Song",
-    src: "https://example.com/your-first-song.mp3",
-    cover: "",
+    title: "Jananayagan",
+    src: "/music/OruPereVaralaaru.mp3",
+    cover: "/music/IMG_7272.jpeg",
   },
   {
-    title: "Second Song",
-    src: "https://example.com/your-second-song.mp3",
-    cover: "",
-  },
+     title: "Jananayagan",
+    src: "/music/Ravana.mp3",
+    cover: "/music/IMG_7273.webp",
+   },
 ];
 
 export default tracks;
