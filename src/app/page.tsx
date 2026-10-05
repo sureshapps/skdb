@@ -617,7 +617,7 @@ export default async function Page() {
               </p>
               <Signature className="!mt-1 w-[200px] text-foreground/90 sm:w-[250px]" />
               <a
-                href="mailto:hi@prasen.dev"
+                href="mailto:hello@suresh.app"
                 className="inline-flex items-center gap-2.5 rounded-full border border-border/70 bg-background/70 px-5 py-2.5 text-sm font-medium shadow-sm backdrop-blur transition-all hover:-translate-y-0.5 hover:bg-background"
               >
                 <Avatar className="size-6">
@@ -639,7 +639,7 @@ export default async function Page() {
               <div className="space-y-2">
                 <p className="text-sm font-medium">{DATA.name}</p>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  Full Stack Developer from India.
+                  Full Stack Developer from Malaysia.
                   <br />Building modern web applications.
                 </p>
               </div>
