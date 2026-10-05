@@ -80,7 +80,7 @@ const COMMANDS = {
   social: () => Object.entries(DATA.contact.social)
     .map(([platform, data]) => `${platform}: ${data.url}`)
     .join('\n'),
-  version: () => 'prasen.dev CLI v1.0.0',
+  version: () => 'suresh.ks CLI v1.0.0',
   clear: 'CLEAR',
   gui: 'GUI',
 };
@@ -150,7 +150,7 @@ export function CliInterface({ onGuiCommand, onMinimize, onMaximize, onClose }: 
     
     setIsMounted(true);
     setOutput([
-      isMobile ? 'Welcome to prasen.dev CLI! 👋' : ASCII_ART + '\nWelcome to my portfolio CLI! 👋',
+      isMobile ? 'Welcome to suresh.ks CLI! 👋' : ASCII_ART + '\nWelcome to my portfolio CLI! 👋',
       'Type "help" or "?" to see available commands.',
       ''
     ]);
