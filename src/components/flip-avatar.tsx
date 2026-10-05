@@ -15,7 +15,7 @@ export function FlipAvatar({ src, hoverSrc, alt, fallback }: FlipAvatarProps) {
 
   return (
     <div
-      className="size-28 [perspective:800px] cursor-pointer"
+      className="size-28 [perspective:600px] cursor-pointer"
       onMouseEnter={() => setFlipped(true)}
       onMouseLeave={() => setFlipped(false)}
     >
@@ -28,8 +28,8 @@ export function FlipAvatar({ src, hoverSrc, alt, fallback }: FlipAvatarProps) {
           <AvatarImage
             alt={alt}
             src={src}
-            width={324}
-            height={324}
+            width={224}
+            height={224}
             loading="eager"
             className="object-cover"
           />
@@ -41,8 +41,8 @@ export function FlipAvatar({ src, hoverSrc, alt, fallback }: FlipAvatarProps) {
           <AvatarImage
             alt={`${alt} alternate`}
             src={hoverSrc}
-            width={324}
-            height={324}
+            width={224}
+            height={224}
             className="object-cover"
           />
           <AvatarFallback>{fallback}</AvatarFallback>
