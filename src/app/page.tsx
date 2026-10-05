@@ -580,19 +580,19 @@ export default async function Page() {
               <div className="space-y-2">
                 <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground/60">Meta</p>
                 <div className="flex flex-col gap-1.5">
-                  <Link href="/sitemap.xml" className="text-xs text-muted-foreground hover:text-foreground transition-colors w-fit">
-                    Sitemap
+                  <Link href="https://sureshks.wasap.my" className="text-xs text-muted-foreground hover:text-foreground transition-colors w-fit">
+                    WhatsApp
                   </Link>
-                  <Link href="/rss.xml" className="text-xs text-muted-foreground hover:text-foreground transition-colors w-fit">
-                    RSS Feed
+                  <Link href="https://facebook.com/mesureshks" className="text-xs text-muted-foreground hover:text-foreground transition-colors w-fit">
+                    Facebook
                   </Link>
                   <a
-                    href="https://suresh.app/mycv.pdf"
+                    href="https://instagram.com/sureshksmy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs text-muted-foreground hover:text-foreground transition-colors w-fit"
                   >
-                    Resume
+                    Instagram
                   </a>
                 </div>
               </div>
