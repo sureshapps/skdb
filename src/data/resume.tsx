@@ -158,19 +158,25 @@ export const DATA = {
     { href: "/gadgets", icon: Icons.shop, label: "Gadgets" },
   ],
   contact: {
-    email: "hello@suresh.app",
+    email: "hi@prasen.dev",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/sureshapps",
+        url: "https://github.com/StarKnightt",
         icon: Icons.github,
 
         navbar: true,
       },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/prasenjitnayak/",
+        icon: Icons.linkedin,
 
+        navbar: true,
+      },
       X: {
         name: "X",
-        url: "https://x.com/sureshksmy",
+        url: "https://x.com/prasenx",
         icon: Icons.x,
 
         navbar: true,
@@ -185,15 +191,20 @@ export const DATA = {
         name: "Medium",
         url: "https://medium.com/@prasenx",
         icon: Icons.medium,
-        navbar: false,
+        navbar: true,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/sureshksmy/",
+        url: "https://www.instagram.com/prasenn_x/",
         icon: Icons.instagram,
         navbar: true,
       },
-      
+      Steam: {
+        name: "Steam",
+        url: "https://s.team/p/hpdv-frbg/prvbvwtg",
+        icon: Icons.steam,
+        navbar: true,
+      },
       CodePen: {
         name: "CodePen",
         url: "https://codepen.io/StarKnightt",
@@ -204,7 +215,7 @@ export const DATA = {
         name: "Discord",
         url: "https://discord.com/users/878205528570990602",
         icon: Icons.discord,
-        navbar: false,
+        navbar: true,
       },
       buyMeACoffee: {
         name: "buyMeACoffee",
@@ -214,12 +225,13 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:hello@suresh.app",
+        url: "mailto:hi@prasen.dev",
         icon: Icons.email,
-        navbar: true,
+        navbar: false,
       },
     },
   },
+
 
   work: [
     {
