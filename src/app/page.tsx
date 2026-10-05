@@ -63,27 +63,27 @@ const PROOF: {
   receipts: { label: string; href: string }[];
 }[] = [
   {
-    value: "16",
+    value: "192+",
     glyph: "chip",
-    label: "Years of experience in the IT industry",
+    label: "Months of experience in the IT industry",
     receipts: [],
   },
   {
-    value: "6",
+    value: "53k",
     glyph: "code",
-    label: "Years in web development",
+    label: "Hours in web development",
     receipts: [],
   },
   {
-    value: "10",
+    value: "87k",
     glyph: "pen",
-    label: "Years in graphic design",
+    label: "Hours in graphic design",
     receipts: [],
   },
   {
-    value: "0%",
+    value: "100%",
     glyph: "compass",
-    label: "Dependency, independent learner",
+    label: "No dependency, independent learner",
     receipts: [],
   },
 ];
