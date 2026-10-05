@@ -33,7 +33,8 @@ import { MediumHoverCard } from "@/components/medium-hover-card";
 import { NowPlaying } from "@/components/now-playing";
 import { BirthdayFireworks } from "@/components/birthday-fireworks";
 import { BirthdayHat } from "@/components/birthday-hat";
-import { VisitorCounter, GithubContributionsPlain } from "@/components/lazy-client";
+import { GithubContributionsPlain } from "@/components/lazy-client";
+import { LastUpdated } from "@/components/last-updated";
 import { StatGlyph, type StatGlyphKind } from "@/components/motion/stat-glyph";
 import { CountUp } from "@/components/motion/count-up";
 import { HeadingScribble } from "@/components/motion/heading-scribble";
@@ -62,27 +63,27 @@ const PROOF: {
   receipts: { label: string; href: string }[];
 }[] = [
   {
-    value: "192+",
+    value: "16",
     glyph: "chip",
-    label: "Months of experience in the IT industry",
+    label: "Years of experience in the IT industry",
     receipts: [],
   },
   {
-    value: "53k",
+    value: "6",
     glyph: "code",
-    label: "Hours in web development",
+    label: "Years in web development",
     receipts: [],
   },
   {
-    value: "88k",
+    value: "10",
     glyph: "pen",
-    label: "Hours in graphic design",
+    label: "Years in graphic design",
     receipts: [],
   },
   {
-    value: "100%",
+    value: "0%",
     glyph: "compass",
-    label: "No Dependency, independent learner",
+    label: "Dependency, independent learner",
     receipts: [],
   },
 ];
@@ -617,7 +618,7 @@ export default async function Page() {
               </p>
               <Signature className="!mt-1 w-[200px] text-foreground/90 sm:w-[250px]" />
               <a
-                href="mailto:hello@suresh.app"
+                href="mailto:hi@prasen.dev"
                 className="inline-flex items-center gap-2.5 rounded-full border border-border/70 bg-background/70 px-5 py-2.5 text-sm font-medium shadow-sm backdrop-blur transition-all hover:-translate-y-0.5 hover:bg-background"
               >
                 <Avatar className="size-6">
@@ -639,7 +640,7 @@ export default async function Page() {
               <div className="space-y-2">
                 <p className="text-sm font-medium">{DATA.name}</p>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  Full Stack Developer from Malaysia.
+                  Full Stack Developer from India.
                   <br />Building modern web applications.
                 </p>
               </div>
@@ -692,7 +693,7 @@ export default async function Page() {
                   MIT
                 </a>
               </p>
-              <VisitorCounter />
+              <LastUpdated />
             </div>
           </BlurFade>
         </footer>
