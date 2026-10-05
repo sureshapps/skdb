@@ -158,11 +158,11 @@ export const DATA = {
     { href: "/gadgets", icon: Icons.shop, label: "Gadgets" },
   ],
   contact: {
-    email: "hi@prasen.dev",
+    email: "hello@suresh.app",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/StarKnightt",
+        url: "https://github.com/sureshapps",
         icon: Icons.github,
 
         navbar: true,
@@ -172,11 +172,11 @@ export const DATA = {
         url: "https://www.linkedin.com/in/prasenjitnayak/",
         icon: Icons.linkedin,
 
-        navbar: true,
+        navbar: false,
       },
       X: {
         name: "X",
-        url: "https://x.com/prasenx",
+        url: "https://x.com/sureshksmy",
         icon: Icons.x,
 
         navbar: true,
@@ -185,17 +185,17 @@ export const DATA = {
         name: "Youtube",
         url: "https://youtube.com/@prasendev",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       Medium: {
         name: "Medium",
         url: "https://medium.com/@prasenx",
         icon: Icons.medium,
-        navbar: true,
+        navbar: false,
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/prasenn_x/",
+        url: "https://www.instagram.com/sureshksmy/",
         icon: Icons.instagram,
         navbar: true,
       },
@@ -203,19 +203,19 @@ export const DATA = {
         name: "Steam",
         url: "https://s.team/p/hpdv-frbg/prvbvwtg",
         icon: Icons.steam,
-        navbar: true,
+        navbar: false,
       },
       CodePen: {
         name: "CodePen",
         url: "https://codepen.io/StarKnightt",
         icon: Icons.codepen,
-        navbar: true,
+        navbar: false,
       },
       Discord: {
         name: "Discord",
         url: "https://discord.com/users/878205528570990602",
         icon: Icons.discord,
-        navbar: true,
+        navbar: false,
       },
       buyMeACoffee: {
         name: "buyMeACoffee",
@@ -225,7 +225,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:hi@prasen.dev",
+        url: "mailto:hello@suresh.app",
         icon: Icons.email,
         navbar: false,
       },
