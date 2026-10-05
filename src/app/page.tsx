@@ -508,51 +508,7 @@ export default async function Page() {
         </section>
 
 
-        {/* ─── WRITING ─── */}
-        <section id="writing">
-          <div className="flex min-h-0 flex-col gap-y-3">
-            <BlurFade delay={BLUR_FADE_DELAY * 15}>
-              <div className="flex items-end justify-between gap-4">
-                <div>
-                  <SectionLabel label="Blog" />
-                  <h2 className="relative mt-1.5 w-fit text-xl font-bold tracking-tight">
-                    Writing
-                    <HeadingScribble kind="wave" />
-                  </h2>
-                </div>
-                <Link
-                  href="/blog"
-                  className="group inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
-                >
-                  All posts
-                  <ArrowRight className="size-3.5 transition-transform duration-150 ease-out group-hover:translate-x-0.5" />
-                </Link>
-              </div>
-            </BlurFade>
-            <BlurFade delay={BLUR_FADE_DELAY * 15.5}>
-              <ul className="-mx-3">
-                {posts.map((post) => (
-                  <li key={post.slug}>
-                    <Link
-                      href={`/blog/${post.slug}`}
-                      className="group grid gap-x-8 gap-y-0.5 rounded-lg px-3 py-3 transition-colors duration-150 hover:bg-muted/60 sm:grid-cols-[9rem_1fr]"
-                    >
-                      <time
-                        dateTime={post.metadata.publishedAt}
-                        className="whitespace-nowrap text-[13px] leading-6 tabular-nums text-muted-foreground"
-                      >
-                        {formatDate(post.metadata.publishedAt)}
-                      </time>
-                      <span className="text-[15px] leading-6 underline-offset-4 group-hover:underline">
-                        {post.metadata.title}
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </BlurFade>
-          </div>
-        </section>
+
 
 
         {/* ─── CONTACT ─── */}
