@@ -167,12 +167,12 @@ export const DATA = {
 
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/prasenjitnayak/",
-        icon: Icons.linkedin,
+      Facebook: {
+        name: "Facebook",
+        url: "https://www.fb.me/mesureshks/",
+        icon: Icons.facebook,
 
-        navbar: false,
+        navbar: true,
       },
       X: {
         name: "X",
@@ -199,11 +199,11 @@ export const DATA = {
         icon: Icons.instagram,
         navbar: true,
       },
-      Steam: {
-        name: "Steam",
-        url: "https://s.team/p/hpdv-frbg/prvbvwtg",
+      Behance: {
+        name: "Behance",
+        url: "https://behance.net/sureshksmy",
         icon: Icons.steam,
-        navbar: false,
+        navbar: true,
       },
       CodePen: {
         name: "CodePen",
@@ -227,7 +227,7 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:hello@suresh.app",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
