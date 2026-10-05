@@ -533,7 +533,7 @@ export default async function Page() {
                   </p>
                 </Row>
                 <Row label="Now playing">
-                  <div className="max-w-sm">
+                  <div className="max-w-[400px]">
                     <SteamNowPlaying />
                   </div>
                 </Row>
