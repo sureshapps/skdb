@@ -21,15 +21,14 @@ import { GitHubSponsors } from "@/components/github-sponsors";
 import { AgeCounter } from "@/components/age-counter";
 import { FlipAvatar } from "@/components/flip-avatar";
 import { GitHubHoverCard } from "@/components/github-hover-card";
-import { SteamHoverCard } from "@/components/steam-hover-card";
+
 import { YouTubeHoverCard } from "@/components/youtube-hover-card";
 import { XHoverCard } from "@/components/x-hover-card";
-import { LinkedInHoverCard } from "@/components/linkedin-hover-card";
+
 import { InstagramHoverCard } from "@/components/instagram-hover-card";
 import { CodePenHoverCard } from "@/components/codepen-hover-card";
-import { BuyMeACoffeeHoverCard } from "@/components/bmc-hover-card";
-import { DiscordHoverCard } from "@/components/discord-hover-card";
-import { MediumHoverCard } from "@/components/medium-hover-card";
+
+
 import { NowPlaying } from "@/components/now-playing";
 import { BirthdayFireworks } from "@/components/birthday-fireworks";
 import { BirthdayHat } from "@/components/birthday-hat";
@@ -310,14 +309,6 @@ export default async function Page() {
                         );
                       }
 
-                      if (name === "Steam") {
-                        return (
-                          <SteamHoverCard key={name}>
-                            {socialLink}
-                          </SteamHoverCard>
-                        );
-                      }
-
                       if (name === "Youtube") {
                         return (
                           <YouTubeHoverCard key={name}>
@@ -334,14 +325,7 @@ export default async function Page() {
                         );
                       }
 
-                      if (name === "LinkedIn") {
-                        return (
-                          <LinkedInHoverCard key={name}>
-                            {socialLink}
-                          </LinkedInHoverCard>
-                        );
-                      }
-
+                      
                       if (name === "Instagram") {
                         return (
                           <InstagramHoverCard key={name}>
@@ -356,30 +340,7 @@ export default async function Page() {
                             {socialLink}
                           </CodePenHoverCard>
                         );
-                      }
-
-                      if (name === "buyMeACoffee") {
-                        return (
-                          <BuyMeACoffeeHoverCard key={name}>
-                            {socialLink}
-                          </BuyMeACoffeeHoverCard>
-                        );
-                      }
-
-                      if (name === "Discord") {
-                        return (
-                          <DiscordHoverCard key={name}>
-                            {socialLink}
-                          </DiscordHoverCard>
-                        );
-                      }
-
-                      if (name === "Medium") {
-                        return (
-                          <MediumHoverCard key={name}>
-                            {socialLink}
-                          </MediumHoverCard>
-                        );
+                  
                       }
 
                       return (
