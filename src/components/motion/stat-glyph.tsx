@@ -3,7 +3,7 @@
 import type { CSSProperties, ReactElement } from "react";
 import { useInViewOnce } from "./use-in-view-once";
 
-export type StatGlyphKind = "signal" | "claude" | "merge" | "bars";
+export type StatGlyphKind = "signal" | "claude" | "merge" | "bars" | "chip" | "code" | "pen" | "compass";
 
 const d = (delay: number, dur = 420) =>
   ({ "--draw-delay": `${delay}ms`, "--draw-dur": `${dur}ms` }) as CSSProperties;
@@ -71,11 +71,62 @@ function Bars() {
   );
 }
 
+function Chip() {
+  return (
+    <>
+      <path className="motion-draw" style={d(120, 480)} pathLength={1} d="M6.5 6.5c3.6-.2 7.4.2 11 0 .2 3.7-.2 7.3 0 11-3.6.2-7.4-.2-11 0-.2-3.6.2-7.4 0-11Z" />
+      <g className={ACCENT}>
+        <path className="motion-draw" style={d(520, 260)} pathLength={1} d="M10.2 10.2c1.2-.1 2.4.1 3.6 0 .1 1.2-.1 2.4 0 3.6-1.2.1-2.4-.1-3.6 0-.1-1.2.1-2.4 0-3.6Z" />
+      </g>
+      <path className="motion-draw" style={d(300, 200)} pathLength={1} d="M9.5 3.2v3.3M14.5 3.2v3.3" />
+      <path className="motion-draw" style={d(360, 200)} pathLength={1} d="M9.5 17.5v3.3M14.5 17.5v3.3" />
+      <path className="motion-draw" style={d(420, 200)} pathLength={1} d="M3.2 9.5h3.3M3.2 14.5h3.3" />
+      <path className="motion-draw" style={d(480, 200)} pathLength={1} d="M17.5 9.5h3.3M17.5 14.5h3.3" />
+    </>
+  );
+}
+
+function Code() {
+  return (
+    <>
+      <path className="motion-draw" style={d(120, 360)} pathLength={1} d="M8.2 7 3.6 12l4.6 5" />
+      <path className="motion-draw" style={d(300, 360)} pathLength={1} d="m15.8 7 4.6 5-4.6 5" />
+      <g className={ACCENT}>
+        <path className="motion-draw" style={d(480, 320)} pathLength={1} d="M13.4 4.6 10.6 19.4" />
+      </g>
+    </>
+  );
+}
+
+function Pen() {
+  return (
+    <>
+      <path className="motion-draw" style={d(120, 520)} pathLength={1} d="M12 3.4 18 10.4 12 20.6 6 10.4Z" />
+      <path className="motion-draw" style={d(520, 260)} pathLength={1} d="M12 12.2v8.2" />
+      <circle className={`motion-pop ${ACCENT}`} style={d(760)} cx="12" cy="10.4" r="1.5" fill="currentColor" stroke="none" />
+    </>
+  );
+}
+
+function Compass() {
+  return (
+    <>
+      <circle className="motion-draw" style={d(120, 520)} pathLength={1} cx="12" cy="12" r="8.6" />
+      <path className="motion-draw" style={d(520, 360)} pathLength={1} d="M15.8 8.2 13.3 13.3 8.2 15.8 10.7 10.7Z" />
+      <circle className={`motion-pop ${ACCENT}`} style={d(860)} cx="12" cy="12" r="1.3" fill="currentColor" stroke="none" />
+    </>
+  );
+}
+
 const GLYPHS: Record<StatGlyphKind, () => ReactElement> = {
   signal: Signal,
   claude: Claude,
   merge: Merge,
   bars: Bars,
+  chip: Chip,
+  code: Code,
+  pen: Pen,
+  compass: Compass,
 };
 
 export function StatGlyph({ kind }: { kind: StatGlyphKind }) {
