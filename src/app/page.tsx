@@ -62,36 +62,28 @@ const PROOF: {
   receipts: { label: string; href: string }[];
 }[] = [
   {
-    value: "22.5K+",
-    glyph: "signal",
-    label: "followers on X",
-    receipts: [{ label: "@prasenx", href: DATA.contact.social.X.url }],
+    value: "16",
+    glyph: "chip",
+    label: "Years of experience in the IT industry",
+    receipts: [],
   },
   {
-    value: "2x",
-    glyph: "claude",
-    label: "featured by the official Claude account",
-    receipts: [
-      { label: "Night Street", href: "https://x.com/claudeai/status/2090557648567505222" },
-      { label: "Sedona Sunset", href: "https://x.com/claudeai/status/2101017905462722619" },
-    ],
+    value: "6",
+    glyph: "code",
+    label: "Years in web development",
+    receipts: [],
   },
   {
-    value: "PR #3",
-    glyph: "merge",
-    label: "merged from the Xbox CTO",
-    labelLinks: [
-      { text: "Xbox CTO", href: "https://x.com/scottvanvliet/status/2084630828437414113" },
-    ],
-    receipts: [
-      { label: "Jungle Trail", href: "https://github.com/StarKnightt/jungle-trail/pull/3" },
-    ],
+    value: "10",
+    glyph: "pen",
+    label: "Years in graphic design",
+    receipts: [],
   },
   {
-    value: "23",
-    glyph: "bars",
-    label: "paid placements on Outbuilt",
-    receipts: [{ label: "outbuilt.lol", href: "https://outbuilt.lol" }],
+    value: "0%",
+    glyph: "compass",
+    label: "Dependency, independent learner",
+    receipts: [],
   },
 ];
 
@@ -266,6 +258,7 @@ export default async function Page() {
                     <dd className="mt-1 text-sm leading-snug text-muted-foreground">
                       <LinkedLabel label={item.label} links={item.labelLinks} />
                     </dd>
+                    {item.receipts.length > 0 && (
                     <dd className="mt-2 flex flex-wrap gap-x-2 text-xs text-muted-foreground">
                       {item.receipts.map((r) => (
                         <a
@@ -279,6 +272,7 @@ export default async function Page() {
                         </a>
                       ))}
                     </dd>
+                    )}
                   </div>
                 ))}
               </dl>
