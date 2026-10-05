@@ -30,7 +30,7 @@ import { CodePenHoverCard } from "@/components/codepen-hover-card";
 import { BuyMeACoffeeHoverCard } from "@/components/bmc-hover-card";
 import { DiscordHoverCard } from "@/components/discord-hover-card";
 import { MediumHoverCard } from "@/components/medium-hover-card";
-import { SteamNowPlaying } from "@/components/steam-now-playing";
+import { NowPlaying } from "@/components/now-playing";
 import { BirthdayFireworks } from "@/components/birthday-fireworks";
 import { BirthdayHat } from "@/components/birthday-hat";
 import { VisitorCounter, GithubContributionsPlain } from "@/components/lazy-client";
@@ -534,7 +534,7 @@ export default async function Page() {
                 </Row>
                 <Row label="Now playing">
                   <div className="max-w-[400px]">
-                    <SteamNowPlaying />
+                    <NowPlaying />
                   </div>
                 </Row>
                 <Row label="Support">
