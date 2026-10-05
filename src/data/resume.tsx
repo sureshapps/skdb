@@ -33,7 +33,7 @@ export const DATA = {
   initials: "KS",
   url: "https://www.suresh.app",
   location: "Kuala Lumpur, Malaysia",
-  locationLink: "https://www.google.com/maps/place/odisha",
+  locationLink: "https://www.google.com/maps/place/Kuala+Lumpur,+Federal+Territory+of+Kuala+Lumpur/@3.1385059,101.6869895,10z/data=!4m6!3m5!1s0x31cc362abd08e7d3:0x232e1ff540d86c99!8m2!3d3.1319197!4d101.6840589!16zL20vMDQ5ZDE?g_ep=Eg1tbF8yMDI2MDkyOV8wIJvbDyoASAJQAg%3D%3D",
   description:
     "",
   summary:
@@ -158,32 +158,32 @@ export const DATA = {
     { href: "/gadgets", icon: Icons.shop, label: "Gadgets" },
   ],
   contact: {
-    email: "hi@prasen.dev",
+    email: "hello@suresh.app",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/StarKnightt",
+        url: "https://github.com/sureshapps",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/prasenjitnayak/",
+        url: "https://www.facebook.com/mesureshks/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/prasenx",
+        url: "https://x.com/sureshksmy",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/@prasendev",
+        url: "https://youtube.com/@iamsureshks",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -195,7 +195,7 @@ export const DATA = {
       },
       Instagram: {
         name: "Instagram",
-        url: "https://www.instagram.com/prasenn_x/",
+        url: "https://www.instagram.com/sureshksmy/",
         icon: Icons.instagram,
         navbar: true,
       },
@@ -207,7 +207,7 @@ export const DATA = {
       },
       CodePen: {
         name: "CodePen",
-        url: "https://codepen.io/StarKnightt",
+        url: "https://codepen.io/iamsureshks",
         icon: Icons.codepen,
         navbar: true,
       },
@@ -225,7 +225,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:hi@prasen.dev",
+        url: "mailto:hello@suresh.app",
         icon: Icons.email,
         navbar: false,
       },
@@ -484,24 +484,14 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://starknightt.github.io/sedona-sunset/",
+          type: "Webpage",
+          href: "https://suresh.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "Source",
-          href: "https://github.com/StarKnightt/sedona-sunset",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Featured by Claude",
-          href: "https://x.com/claudeai/status/2101017905462722619",
-          icon: <Icons.x className="size-3" />,
-        },
-        {
-          type: "Launch post",
-          href: "https://x.com/prasenx/status/2091551772880085268",
-          icon: <Icons.x className="size-3" />,
+          type: "WhatsApp",
+          href: "https://sureshks.wasap.my",
+          icon: <Icons.whatsapp className="size-3" />,
         },
       ],
       image: "/projects/sedona-sunset.webp",
