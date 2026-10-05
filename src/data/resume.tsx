@@ -191,7 +191,7 @@ export const DATA = {
         name: "Medium",
         url: "https://medium.com/@prasenx",
         icon: Icons.medium,
-        navbar: true,
+        navbar: false,
       },
       Instagram: {
         name: "Instagram",
@@ -203,7 +203,7 @@ export const DATA = {
         name: "Steam",
         url: "https://s.team/p/hpdv-frbg/prvbvwtg",
         icon: Icons.steam,
-        navbar: true,
+        navbar: false,
       },
       CodePen: {
         name: "CodePen",
@@ -215,7 +215,7 @@ export const DATA = {
         name: "Discord",
         url: "https://discord.com/users/878205528570990602",
         icon: Icons.discord,
-        navbar: true,
+        navbar: false,
       },
       buyMeACoffee: {
         name: "buyMeACoffee",
