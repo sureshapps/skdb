@@ -95,12 +95,10 @@ export function Signature({ className }: { className?: string }) {
             <path key={i} d={d} transform={`translate(${tx} ${BASE_Y})`} />
           ))}
         </g>
-        <path
-          d={UNDERLINE}
-          fill="currentColor"
-          mask="url(#signature-underline)"
-          transform="translate(937.4 619.4)"
-        />
+        {/* mask on the wrapper so it isn't shifted by the path's own transform */}
+        <g mask="url(#signature-underline)">
+          <path d={UNDERLINE} fill="currentColor" transform="translate(937.4 619.4)" />
+        </g>
       </svg>
     </InViewOnce>
   );
